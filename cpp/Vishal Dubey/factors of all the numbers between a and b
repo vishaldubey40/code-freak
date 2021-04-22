@@ -1,12 +1,14 @@
-//Find factors between 2 given number
+//Find the factors of all the numbers between [a b] where {a<b.
+
+
 
 #include <iostream>  
 
 using namespace std;
 
 int main() {
-    int t;
-     int p;
+    int t;              // where t is number of test case
+     
     cin>>t;
     while(t--){
         int a,b;
@@ -17,7 +19,7 @@ int main() {
                 if((i%j)==0){
                     cout<<j<<" ";
                 
-                 p=j;
+
                 }    
                 
                     }
